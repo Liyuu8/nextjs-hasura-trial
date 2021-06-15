@@ -35,7 +35,7 @@ export const LocalStateA: VFC = () => {
           }
         />
         <button
-          className="disable:opacity-40 mb-3 py-1 px-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-2xl focus:outline-none"
+          className="disabled:opacity-40 mb-3 py-1 px-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-2xl focus:outline-none"
           disabled={!title}
           type="submit"
         >
