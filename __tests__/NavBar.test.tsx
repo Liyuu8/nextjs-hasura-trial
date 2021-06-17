@@ -10,6 +10,9 @@ import 'setimmediate'
 
 import { handlers } from '../mock/handlers'
 
+process.env.NEXT_PUBLIC_HASURA_URL =
+  'https://hasura-trial.hasura.app/v1/graphql'
+
 initTestHelpers()
 
 const server = setupServer(...handlers)
