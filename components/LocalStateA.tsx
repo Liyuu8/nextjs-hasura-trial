@@ -15,7 +15,7 @@ export const LocalStateA: VFC = () => {
 
   return (
     <>
-      <p className="mb-5 font-bold">makeVar</p>
+      <p className="mb-5 font-bold">Make Var</p>
       {todos.map((todo, index) => (
         <p className="mb-3 y-1" key={index}>
           ・{todo.title}
